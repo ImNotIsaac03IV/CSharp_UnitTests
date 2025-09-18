@@ -14,6 +14,7 @@ namespace SVNummerTest
         public static bool IsSvNumberValid(string svNumber)
         {
             svNumber.Trim(' ');
+
             int[] svCheck = { 3, 7, 9, 0, 5, 8, 4, 2, 1, 6 };
 
             if (!isLength10(svNumber))
